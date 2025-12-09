@@ -11,7 +11,7 @@ spec:
   rules:
   - host: argocd.local
     http:
-      paths:  
+      paths: 
       - path: /
         pathType: Prefix
         backend:
